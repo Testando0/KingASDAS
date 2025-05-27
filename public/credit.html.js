@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KING APIS - CRÉDITOS</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #ffffff;
+    }
+
+    blux.credits-container {
+      background-color: #1e1e1e;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      max-width: 900px;
+      padding: 40px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    blux.credits-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    blux.credits-item a {
+      text-decoration: none;
+    }
+
+    blux.credits-item img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      margin-right: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
+
+    blux.credits-item img:hover {
+      transform: scale(1.1);
+    }
+
+    blux.credits-details {
+      text-align: left;
+    }
+
+    blux.credits-details h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #ffffff;
+    }
+
+    .credits-details p {
+      margin: 5px 0;
+      color: #cccccc;
+      font-size: 1rem;
+    }
+
+    /* Efeitos de animação */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="credits-container">
+    <h2>Equipe de Desenvolvimento</h2>
+
+    <div class="credits-item">
+      <a href="https://whatsapp.com/channel/0029Vacb5xJKrWQpjjJgwi1z" target="_blank">
+        <img src="https://files.catbox.moe/edf54m.jpg" alt="Foto do Daniel Bot">
+      </a>
+      <div class="credits-details">
+        <h3>Patman</h3>
+        <p>Criador do site de APIs</p>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>KING APIS</p>
+    </div>
+  </div>
+
+</body>
+</html>
